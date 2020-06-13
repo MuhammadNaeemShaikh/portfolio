@@ -1,0 +1,83 @@
+
+figure{
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;    
+    
+}
+h1{
+    color: blueviolet;
+    text-align: center;
+    text-transform: uppercase;
+    
+    
+}
+
+#form{
+    background-color: blueviolet;
+    padding-left: 100px;
+    color: #ffffff;
+}
+
+#First-Name{
+    padding-top: 10px;
+    margin-top: 40px;
+    
+}
+
+#table{
+    width: 400px;
+    height: 100px;
+    background-color:white;
+    margin-left: 300px;
+}
+
+.x{
+    margin-left: 170px;
+}
+.Board{
+    margin-left: 72px;
+}
+.Percentage{
+    margin-left: 61px;
+}
+/* #button{
+     margin-left: 00px;
+} */
+#course{
+    margin-left: 10px;
+}
+#courses{
+    margin-left: 60px;
+}
+.Graduation{
+    margin-left: 50px;
+}
+h2{
+    text-align: center;
+    color: green;
+
+}
+h3{
+    text-align: center;
+    color:blueviolet;
+}
+ul{
+    text-align: center;
+    text-decoration: none;
+    color:blueviolet;
+}
+#figure{
+    text-align: center;
+}
+#button{
+    padding-bottom: 10px;
+    text-align: center;
+}
+.xi{
+    margin-left: 169px;
+
+}
+#list-I{
+    padding-right: 40px;
+}
