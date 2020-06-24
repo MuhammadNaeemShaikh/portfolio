@@ -1,0 +1,69 @@
+
+body{
+    background-image: url('img/person-using-calculator-on-brown-wooden-surface-2058138.jpg');
+    background-repeat: no-repeat;
+    background-position: center ;
+    
+}
+#main{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 35%;
+    top:10%
+}
+
+.btn{
+    width: 75px;
+    background-color: lightblue;
+    color: white;
+    padding: 10px !important;
+    font-weight: bold !important;
+    font-size: 25px !important;
+}
+.span{
+    background-color: #fff;
+    padding: 5px;
+    color: #000;
+}
+.text{
+    margin-bottom: 10px;
+    font-weight: bolder ;
+    font-size: 20px;
+}
+.input{
+    font-weight: bolder !important;
+    font-size: 27px;
+}
+.btn1{
+    padding-left: 20px !important;
+    width: 235px !important;
+}
+
+@media screen and (max-width: 520px) {
+   
+    #main{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        left: 25%;
+        top:10%
+    }
+    .btn{
+        width: 60px;
+        background-color: lightblue;
+        color: white;
+        padding: 10px !important;
+        font-weight: bold !important;
+        font-size: 25px !important;
+    }     
+    .input{
+        font-weight: bolder !important;
+        font-size: 22px;
+    }
+    .btn1{
+        padding-left: 20px !important;
+        width: 190px !important;
+    }
+    
+  }

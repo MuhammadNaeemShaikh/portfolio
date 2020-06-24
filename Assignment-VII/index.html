@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+    <div id="main" >
+        <div>
+            <p class=" text-primary mt-5 text text-center " >Caluculate Here <span>&#128071;</span></p>
+        </div>
+        <div class="text input">
+            <input type="text" size=21; maxlength=20; placeholder="0" id="result" class="text-white bg-dark font-weight-bolder"  >
+        </div>
+        <div >
+            <button class="btn rounded-circle bg-dark" onclick="clearResult()">C</button>
+            <button class="btn rounded-circle" onclick="getsquare_Root()">&#x221A;</button>
+            <button class="btn rounded-circle" onclick="into_2()">x 2</button>
+            <span>
+                <button class="span btn mt-1" onclick="getNumber('/')">&#xf7;</button>
+            </span>
+        </div>
+
+        <div>
+            <button class="btn rounded-circle " onclick="getNumber('7')">7</button>
+            <button class="btn rounded-circle" onclick="getNumber('8')">8</button>
+            <button class="btn rounded-circle" onclick="getNumber('9')">9</button>
+            <span>
+                <button class="span btn mt-1" onclick="getNumber('*')">X</button>
+            </span>
+        </div>
+        <div>
+            <button class="btn rounded-circle" onclick="getNumber('4')">4</button>
+            <button class="btn rounded-circle" onclick="getNumber('5')">5</button>
+            <button class="btn rounded-circle" onclick="getNumber('6')">6</button>
+            <span>
+                <button class="span btn mt-1" onclick="getNumber('-')">-</button>
+            </span>
+        </div>
+
+        <div>
+            <button class="btn rounded-circle" onclick="getNumber('3')">3</button>
+            <button class="btn rounded-circle" onclick="getNumber('2')">2</button>
+            <button class="btn rounded-circle" onclick="getNumber('1')">1</button>
+            <span>
+                <button class="span btn mt-1 " onclick="getNumber('+')">+</button>
+            </span>
+        </div>
+        
+        <div>
+            <button class="btn btn1"  onclick="getNumber('0')">0</button>
+            <span>
+                <button class="span btn bg-dark text-white mt-1 pr-4 pl-4" onclick="getResult()">=</button>
+            </span>
+        </div>
+
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
