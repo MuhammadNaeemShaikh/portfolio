@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* form {
+            font-weight: 500;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        form input {
+            border: 1px solid black;
+            margin: 3px 0px;
+        } */
+
+        img {
+            width: 100px !important;
+            height: 100px !important;
+            
+        }
+        .modal{
+            text-align: center;
+        }
+
+        .hidden{
+            width: 400px !important;
+            height: 400px !important;
+            
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <!-- //****************************** */ Chapter 43 to 48 *************************************** -->
+
+    <!-- Task 1 -->
+    <!-- <a href="#" onclick="alert('Hello World')">Click Here</a> -->
+
+    <!-- Task 2 -->
+    <!-- 
+    <div >
+    <img src="images/download.jpg" alt="" onclick="purchase()" >
+    <img src="images/iphone-11-.png" alt="" onclick="purchase()" width="200px" height="200px">    e
+    <img src="images/jbareham_170916_2000_0057.jpg" alt="" onclick="purchase()" width="200px">
+    <img src="images/iphone-11.jpg" alt="" onclick="purchase()" width="200px">
+    </div> -->
+
+
+    <!-- Task 3 -->
+
+    <!-- <table border="1" style="padding: 0px 4px; font-size: 30px; text-align: center;">        
+        <tr>
+            <th style="padding: 10px 30px">Index</th>            
+            <th style="padding: 10px 30px">Name</th>            
+            <th style="padding: 10px 30px">Class</th>            
+            <th style="padding: 10px 30px">Del Entry</th>        
+        </tr>        
+        <tr id="1">            
+            <td style="padding: 10px 30px">0</td>            
+            <td style="padding: 10px 30px">Kashif</td>            
+            <td style="padding: 10px 30px">10th</td>          
+            <td style="padding: 10px 30px"><button onclick="delEntry()" style="font-size: 20px; padding: 4px 20px">Delete</button></td>   
+        </tr>        
+        <tr id="2">            
+            <td style="padding: 10px 30px">1</td> 
+            <td style="padding: 10px 30px">Iqbal</td>            
+            <td style="padding: 10px 30px">8th</td>            
+            <td style="padding: 10px 30px"><button onclick="delEntry()" style="font-size: 20px; padding: 4px 20px">Delete</button></td>        
+        </tr>        
+        <tr id="3">            
+            <td style="padding: 10px 30px">2</td>            
+            <td style="padding: 10px 30px">Haider</td>            
+            <td style="padding: 10px 30px">6th</td>            
+            <td style="padding: 10px 30px"><button onclick="delEntry()" style="font-size: 20px; padding: 4px 20px">Delete</button></td>        
+        </tr>        
+        <tr id="4">            
+            <td style="padding: 10px 30px">3</td>            
+            <td style="padding: 10px 30px">Ismail</td>            
+            <td style="padding: 10px 30px">4th</td>            
+            <td style="padding: 10px 30px"><button onclick="delEntry()" style="font-size: 20px; padding: 4px 20px">Delete</button></td>        
+        </tr>        
+        <tr id="5">            
+            <td style="padding: 10px 30px">4</td>            
+            <td style="padding: 10px 30px">Mustansar</td>            
+            <td style="padding: 10px 30px">5th</td>            
+            <td style="padding: 10px 30px"><button onclick="delEntry()" style="font-size: 20px; padding: 4px 20px">Delete</button></td>        
+        </tr>        
+        <tr id="6">            
+            <td style="padding: 10px 30px">5</td>            
+            <td style="padding: 10px 30px">Haider</td>            
+            <td style="padding: 10px 30px">7th</td>            
+            <td style="padding: 10px 30px"><button onclick="delEntry()" style="font-size: 20px; padding: 4px 20px">Delete</button></td>        
+        </tr>        
+        <tr id="7">            
+            <td style="padding: 10px 30px">6</td>            
+            <td style="padding: 10px 30px">Ashraf</td>            
+            <td style="padding: 10px 30px">9th</td>            
+            <td style="padding: 10px 30px"><button onclick="delEntry()" style="font-size: 20px; padding: 4px 20px">Delete</button></td>        
+        </tr>        
+        <tr id="8">            
+            <td style="padding: 10px 30px">7</td>            
+            <td style="padding: 10px 30px">Asghar</td>            
+            <td style="padding: 10px 30px">8th</td>            
+            <td style="padding: 10px 30px"><button onclick="delEntry()" style="font-size: 20px; padding: 4px 20px">Delete</button></td>        
+        </tr>        
+        <tr id="9">            
+            <td style="padding: 10px 30px">8</td>            
+            <td style="padding: 10px 30px">Ikram</td>            
+            <td style="padding: 10px 30px">5th</td>            
+            <td style="padding: 10px 30px"><button onclick="delEntry()" style="font-size: 20px; padding: 4px 20px">Delete</button></td>        
+        </tr>        
+        <tr id="10">            
+            <td style="padding: 10px 30px">9</td>            
+            <td style="padding: 10px 30px">Ahsan</td>            
+            <td style="padding: 10px 30px">9th</td>            
+            <td style="padding: 10px 30px"><button onclick="delEntry()" style="font-size: 20px; padding: 4px 20px">Delete</button></td>        
+        </tr>    
+    </table> -->
+
+
+
+    <!-- Task 4 -->
+    <!-- <img src="images/download.jpg" alt="" onmouseover="swap('images/iphone-11-.png')" onmouseout="swap('images/download.jpg')" id="swapping" > -->
+
+
+    <!-- Task 5 -->
+    <!-- 
+     <input type="text" id="count" placeholder="0"><br><br>
+    <button onclick="Increase()">Increase</button>
+    <button onclick="decrease()">Decrease</button> -->
+
+
+    <!-- //****************************** */ Chapter 43 to 48 Complete*************************************** -->
+
+    <!-- //****************************** */ Chapter 49 to 52 *************************************** -->
+
+    <!-- Task 1 -->
+
+
+    <!-- <h1 style="text-align: center; margin-bottom: 50px">Sign Up Form</h1>    
+        <div style="display: flex; justify-content: space-evenly">        
+            <form>            
+                <label>Enter Your Name: </label>            
+                <input type="text" id="name"><br><br>           
+                <label>Enter Your Email: </label>            
+                <input type="text" id="email"><br><br>            
+                <label>Enter Your Password: </label>            
+                <input type="password" id="password"><br><br>            
+                <label>Confirm Your Password: </label>            
+                <input type="password" id="confirmPassword"><br><br>            
+                <button style="margin-top: 30px; margin-left: 350px" onclick="submitForm()">Sign Up</button>        
+            </form>        
+            <form>            
+                <label>Your Name: &ThickSpace;</label>            
+                <span id="pasteName"></span><br><br>            
+                <label>Your Email: &ThickSpace;</label>            
+                <span id="pasteEmail"></span><br><br>            
+                <label>Your Password: &ThickSpace;</label>            
+                <span id="pastePassword"></span><br><br>            
+                <label>Your Confirmed Password: &ThickSpace;</label>            
+                <span id="pasteConfirmPassword"></span>        
+            </form>    
+        </div> -->
+
+
+
+    <!-- Task 2 -->
+
+    <!-- <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit.<a onclick="Readmore()">Read More</a></p> -->
+
+
+    <!-- Task 3 -->
+
+    <!-- <table border="1" style="padding: 0px 4px; font-size: 30px; text-align: center;">        
+          <tr>            
+              <th style="padding: 10px 30px">Index</th>            
+              <th style="padding: 10px 30px">Name</th>            
+              <th style="padding: 10px 30px">Class</th>           
+              <th style="padding: 10px 30px">Del Entry</th>            
+              <th style="padding: 10px 30px">Edit Entry</th>        
+            </tr>        
+            <tr id="1">            
+                <td id ="nine" style="padding: 10px 30px">0</td>            
+                <td id ="nine_name" style="padding: 10px 30px">Kashif</td>            
+                <td id ="ninth" style="padding: 10px 30px">10th</td>            
+                <td style="padding: 10px 30px"><button onclick="delEntry()" style="font-size: 20px; padding: 4px 20px">Delete</button></td>            
+                <td style="padding: 10px 30px"><button onclick="editEntry()" style="font-size: 20px; padding: 6px 40px">Edit</button></td>        
+            </tr>        
+            <tr id="2">            
+                <td id ="nine" style="padding: 10px 30px">1</td>            
+                <td id ="nine_name" style="padding: 10px 30px">Iqbal</td>            
+                <td id ="ninth" style="padding: 10px 30px">8th</td>            
+                <td style="padding: 10px 30px"><button onclick="delEntry()" style="font-size: 20px; padding: 4px 20px">Delete</button></td>            
+                <td style="padding: 10px 30px"><button onclick="editEntry()" style="font-size: 20px; padding: 6px 40px">Edit</button></td>        
+            </tr>        
+            <tr id="3">            
+                <td id ="nine" style="padding: 10px 30px">2</td>            
+                <td id ="nine_name" style="padding: 10px 30px">Haider</td>            
+                <td id ="ninth" style="padding: 10px 30px">6th</td>            
+                <td style="padding: 10px 30px"><button onclick="delEntry()" style="font-size: 20px; padding: 4px 20px">Delete</button></td>            
+                <td style="padding: 10px 30px"><button onclick="editEntry()" style="font-size: 20px; padding: 6px 40px">Edit</button></td>        
+            </tr>        
+            <tr id="4">            
+                <td id ="nine" style="padding: 10px 30px">3</td>            
+                <td id ="nine_name" style="padding: 10px 30px">Ismail</td>            
+                <td id ="ninth" style="padding: 10px 30px">4th</td>            
+                <td style="padding: 10px 30px"><button onclick="delEntry()" style="font-size: 20px; padding: 4px 20px">Delete</button></td>            
+                <td style="padding: 10px 30px"><button onclick="editEntry()" style="font-size: 20px; padding: 6px 40px">Edit</button></td>        
+            </tr>        
+            <tr id="5">            
+                <td id ="nine" style="padding: 10px 30px">4</td>            
+                <td id ="nine_name" style="padding: 10px 30px">Mustansar</td>            
+                <td id ="ninth" style="padding: 10px 30px">5th</td>            
+                <td style="padding: 10px 30px"><button onclick="delEntry()" style="font-size: 20px; padding: 4px 20px">Delete</button></td>            
+                <td style="padding: 10px 30px"><button onclick="editEntry()" style="font-size: 20px; padding: 6px 40px">Edit</button></td>        
+            </tr>        
+            <tr id="6">            
+                <td id ="nine" style="padding: 10px 30px">5</td>            
+                <td id ="nine_name" style="padding: 10px 30px">Haider</td>            
+                <td id ="ninth" style="padding: 10px 30px">7th</td>            
+                <td style="padding: 10px 30px"><button onclick="delEntry()" style="font-size: 20px; padding: 4px 20px">Delete</button></td>            
+                <td style="padding: 10px 30px"><button onclick="editEntry()" style="font-size: 20px; padding: 6px 40px">Edit</button></td>        
+            </tr>        
+            <tr id="7">            
+                <td id ="nine" style="padding: 10px 30px">6</td>            
+                <td id ="nine_name" style="padding: 10px 30px">Ashraf</td>            
+                <td id ="ninth" style="padding: 10px 30px">9th</td>            
+                <td style="padding: 10px 30px"><button onclick="delEntry()" style="font-size: 20px; padding: 4px 20px">Delete</button></td>            
+                <td style="padding: 10px 30px"><button onclick="editEntry()" style="font-size: 20px; padding: 6px 40px">Edit</button></td>        
+            </tr>        
+            <tr id="8">            
+                <td id ="nine" style="padding: 10px 30px">7</td>            
+                <td id ="nine_name" style="padding: 10px 30px">Asghar</td>            
+                <td id ="ninth" style="padding: 10px 30px">8th</td>            
+                <td style="padding: 10px 30px"><button onclick="delEntry()" style="font-size: 20px; padding: 4px 20px">Delete</button></td>           
+                <td style="padding: 10px 30px"><button onclick="editEntry()" style="font-size: 20px; padding: 6px 40px">Edit</button></td>        
+            </tr>        
+            <tr id="9">            
+                <td id ="nine" style="padding: 10px 30px">8</td>            
+                <td id ="nine_name" style="padding: 10px 30px">Ikram</td>            
+                <td id ="ninth" style="padding: 10px 30px">5th</td>            
+                <td style="padding: 10px 30px"><button onclick="delEntry()" style="font-size: 20px; padding: 4px 20px">Delete</button></td>            
+                <td style="padding: 10px 30px"><button onclick="editEntry()" style="font-size: 20px; padding: 6px 40px">Edit</button></td>        
+            </tr>        
+            <tr id="10">            
+                <td id ="nine" style="padding: 10px 30px">9</td>            
+                <td id ="nine_name" style="padding: 10px 30px">Ahsan</td>            
+                <td id ="ninth" style="padding: 10px 30px">9th</td>            
+                <td style="padding: 10px 30px"><button onclick="delEntry()" style="font-size: 20px; padding: 4px 20px">Delete</button></td>            
+                <td style="padding: 10px 30px"><button onclick="editEntry()" style="font-size: 20px; padding: 6px 40px">Edit</button></td>        
+            </tr>    
+        </table> -->
+
+
+    <!-- //****************************** */ Chapter 49 to 52 Complete*************************************** -->
+
+    <!-- //****************************** */ Chapter 53 to 58 *************************************** -->
+
+    <!-- <div class="modal">
+        <img src="images/download.jpg" onclick="Big()" id="img" alt="">
+        <img src="images/iphone-11-.png" onclick="Big()"  id="img" alt="">
+        <img src="images/iphone-11.jpg" onclick="Big()" id="img" alt="">
+        <img src="images/jbareham_170916_2000_0057.jpg" id="img" onclick="Big()" alt="">
+    </div> -->
+
+
+    <!-- //****************************** */ Chapter 53 to 58 *************************************** -->
+
+    <!-- //****************************** */ Chapter 58 to 67 *************************************** -->
+
+
+
+    <!-- //****************************** */ Chapter 58 to 67 *************************************** -->
+
+
+    <!-- Task 1 -->
+    <!-- 
+
+    <div>
+        <h1> DOM </h1>
+        <div id="form-content" class=”content”><label for=”first-name”>First Name</label><input type=”text” id=”first-name” /><br><label for=”last-name”>Last Name</label><input type=”text” id="last-name" /> <br><label for="email">Email</label><input type=”text” id="email" /> </div>
+        <div id="main-content" class=”content”><p class=”render”> First Name : Alex</p>
+            <p class=”render” id=”lastName”>Last Name: Bank</p>
+            <p class=”render”> Email : alexbank@example.com</p>
+            <p class=”render”> Country : Pakistan </p><p class=”render”> contact : +92 300 1234567</p></div>
+    </div> -->
+
+    <!-- //****************************** */ Chapter 58 to 67 Complete*************************************** -->
+
+
+
+
+
+</body>
+<script src="app.js/app.js"></script>
+
+</html>
