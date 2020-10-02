@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script src="https://use.fontawesome.com/187349d0d3.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-database.js"></script>
+
+     <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+          apiKey: "AIzaSyAGngVJkFdgc0qIUA5GlsYeZhXlh1pClZ4",
+          authDomain: "todo-app-88c70.firebaseapp.com",
+          databaseURL: "https://todo-app-88c70.firebaseio.com",
+          projectId: "todo-app-88c70",
+          storageBucket: "todo-app-88c70.appspot.com",
+          messagingSenderId: "578545044444",
+          appId: "1:578545044444:web:c56801dc34efedc76d5d19",
+          measurementId: "G-HJWQJ1QC0Q"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        
+      </script>
+</head>
+
+<body>
+
+    <h1 class="text-center text-uppercase ">Todo App</h1>
+    <header style="background-color: #fff !important;">
+        <h1 class="text-center text-uppercase">Todo List</h1>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-6 ">
+
+                    <span style="margin-right: 20px;" id="date">12 jan 2016</span>
+                </div>
+                <div class="col-lg-6 col-6">
+
+                    <span style="margin-right: 20px;" id="day">Tuesday</span>
+                </div>
+
+                <div class="col-lg-12 col-12 ">
+
+                    <div >
+                        <ul id="list"></ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </header>
+
+    <!-- Modal -->
+
+    <!-- Button trigger modal -->
+    <div class="icon">
+
+        <a href="" data-toggle="modal" data-target="#exampleModal"><i class="fa fa-plus fa-1x"
+                aria-hidden="true"></i></a>
+
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header ">
+                    <h5 class="modal-title " id="exampleModalLabel">To do Input</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Task</label>
+                            <input type="text" id="task" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter what to do" autocomplete="off" >
+                        </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-outline-danger text-center" onclick="add()"
+                        data-dismiss="modal">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+<script src="app.js"></script>
+
+</html>
